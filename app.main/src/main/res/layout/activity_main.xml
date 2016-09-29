@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <FrameLayout
+        android:id="@+id/fragment_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <RadioGroup
+        android:id="@+id/main_rg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bottom_tab_background"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <RadioButton
+            android:id="@+id/main_rb_home"
+            style="@style/BottomRadioButton"
+            android:layout_gravity="bottom"
+            android:drawableTop="@drawable/s_b_home"
+            android:text="首页" />
+
+        <RadioButton
+            android:layout_gravity="bottom"
+            android:id="@+id/main_rb_film"
+            style="@style/BottomRadioButton"
+            android:drawableTop="@drawable/s_b_film"
+            android:text="电影" />
+
+        <RadioButton
+            android:layout_gravity="bottom"
+            android:id="@+id/main_rb_found"
+            style="@style/BottomRadioButton"
+            android:drawableTop="@drawable/s_b_found"
+            android:text="发现" />
+
+        <RadioButton
+            android:layout_gravity="bottom"
+            android:id="@+id/main_rb_mine"
+            style="@style/BottomRadioButton"
+            android:drawableTop="@drawable/s_b_mine"
+            android:text="个人" />
+    </RadioGroup>
+
+</LinearLayout>

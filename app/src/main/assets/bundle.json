@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "bundles": [
+    {
+      "uri": "main",
+      "pkg": "com.example.mysmall.app.main"
+    },{
+      "uri": "login",
+      "pkg": "com.example.mysmall.app.login"
+    },{
+      "uri": "map",
+      "pkg": "com.example.mysmall.lib.map"
+    }
+  ]
+}
